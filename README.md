@@ -12,8 +12,9 @@ Twitter: https://twitter.com/GhostlyPy
 
 This room is based on the original Pokemon series. Can you obtain all the Pokemon in this room?
 
+If you came across this from somewhere other then TryHackme, view my room here: https://tryhackme.com/room/pokemon
 
-# WriteUp (Past this point ALL tasks will be revealed BUT no answers)
+# WriteUp
 
 
 # Task 1
@@ -109,3 +110,7 @@ Please let me know if any bugs or problems occur during your CTF.
 You can message me on the TryHackMe website or use the issues tab located in the Options tab.
 Thank you.
 ```
+
+# Links
+
+Thank you [TryHackMe](https://tryhackme.com) for allowing me to complete this room!
