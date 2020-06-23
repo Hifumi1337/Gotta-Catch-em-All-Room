@@ -13,10 +13,10 @@ Twitter: https://twitter.com/GhostlyPy
 This room is based on the original Pokemon series. Can you obtain all the Pokemon in this room?
 ```
 
-# WriteUp *Past this point ALL tasks will be revealed BUT no answers*
+# WriteUp (Past this point ALL tasks will be revealed BUT no answers)
 
 # Task 1
-```
+
 Run Nmap to search open ports
 
 **nmap -sC -sV -Pn {Machine-IP}** (The server DOES ping, I just prefer -Pn for silence)
@@ -40,7 +40,6 @@ Wait.
 It still requires a hexadecimal decoder to find the answer. After doing so, you'll have your pokemon!
 
 Hexadecimal Decoder: https://cryptii.com/pipes/hex-decoder
-```
 
 # Task 2
 ```
