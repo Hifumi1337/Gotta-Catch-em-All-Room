@@ -31,7 +31,7 @@ Scrolling to the bottom shows a weird combination of username and password. Coul
 
 After logging into the ssh with the provided credentials, change the directory to /home/
 
-Why is there a zip file here? Let's unzip it! (Sometimes the file is already unzipped if so, it should still work).
+Why is there a zip file here? Let's unzip it! (Sometimes the file is already unzipped, if so, it should still work.)
 
 **unzip <file_name.zip>**
 
@@ -50,11 +50,11 @@ Easy.
 
 Run the following command:
 
-**gobuster dir -u {Machine-IP} -w <Location of preferred Wordlist>**
+**gobuster dir -u {Machine-IP} -w /Location of preferred Wordlist/**
 
 You'll find there's a webpage on the server called http://{Machine-IP}/Text-File-Name
 
-Wanna find it easier? Maybe the file name is similar to the question like the first task seemed to be.
+Wanna find it easier? Maybe the file name is similar to the question, like the first task seemed to be.
 
 This one is encoded too, but looks a lot weirder. That's because it's a Caesar Cipher!
 
@@ -107,7 +107,7 @@ The best thing about this flag? No cipher or coded message!
 # Questions or Issues
 ```
 Please let me know if any bugs or problems occur during your CTF.
-You can message me on the TryHackMe website or use the issues tab located in the Options tab.
+You can message me on the TryHackMe website or use the issues section located in the Options tab.
 Thank you.
 ```
 
