@@ -1,19 +1,20 @@
 # Title: Gotta Catch'Em All!
 
 # GhostlyPy | Author
-```
+
 GhostlyPy is a Web Developer and Cybersecurity Enthusiast who enjoys coding with some of his favorite languages, including HTML, CSS, Python, JavaScript, C++, and many more over the years. His preferred distribution version of Linux is Ubuntu and Kali. This is the first room GhostlyPy has ever done!
 
 YouTube: https://www.youtube.com/channel/UCnMcOdlU57Bsa5-rbyY7Neg (Videos have been recorded, will be up very soon!)
 Twitter: https://twitter.com/GhostlyPy
-```
+
 
 # Description
-```
+
 This room is based on the original Pokemon series. Can you obtain all the Pokemon in this room?
-```
+
 
 # WriteUp (Past this point ALL tasks will be revealed BUT no answers)
+
 
 # Task 1
 
@@ -41,8 +42,9 @@ It still requires a hexadecimal decoder to find the answer. After doing so, you'
 
 Hexadecimal Decoder: https://cryptii.com/pipes/hex-decoder
 
+
 # Task 2
-```
+
 Easy.
 
 Run the following command:
@@ -58,10 +60,10 @@ This one is encoded too, but looks a lot weirder. That's because it's a Caesar C
 After decoding using the 14th shift, you'll have your pokemon!
 
 Caesar Cipher Decoder: https://cryptii.com/pipes/caesar-cipher
-```
+
 
 # Task 3
-```
+
 Still logged into the same user:
 
 Move over to the '/' directory, and there will be a weird directory located there.
@@ -71,10 +73,10 @@ After changing into the weird directory, you'll see the file! (You'll know the w
 This one needs to be decoded using base64.
 
 Base64: https://www.base64decode.org/
-```
+
 
 # Task 4 - LAST ONE!
-```
+
 Let's go back to that home directory and see if we can find any login credentials for a second root user.
 
 Definitely a weird directory in '/Videos/'.
@@ -95,10 +97,11 @@ There it is! The final flag!
 
 The best thing about this flag? No cipher or coded message!
 
-Congratulations!
-```
+# Congratulations!
+
 
 # Thank You So Much For Playing My First Room!
+
 
 # Questions or Issues
 ```
