@@ -52,7 +52,7 @@ Run the following command:
 
 **gobuster dir -u {Machine-IP} -w <Location of preferred Wordlist>**
 
-You'll find there's a webpage on the server called http://{Machine-IP}/<Text-File-Name>
+You'll find there's a webpage on the server called http://{Machine-IP}/Text-File-Name
 
 Wanna find it easier? Maybe the file name is similar to the question like the first task seemed to be.
 
