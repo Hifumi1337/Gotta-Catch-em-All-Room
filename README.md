@@ -15,7 +15,7 @@ This room is based on the original Pokemon series. Can you obtain all the Pokemo
 If you came across this from somewhere other then TryHackme, view my room here: https://tryhackme.com/room/pokemon
 
 
-# Question 1
+## Question 1
 
 Run Nmap to search open ports
 
@@ -42,7 +42,7 @@ Wait, it still requires a hexadecimal decoder to find the answer. After doing so
 Hexadecimal Decoder: https://cryptii.com/pipes/hex-decoder
 
 
-# Question 2
+## Question 2
 
 First things first, let's see if our webpage from earlier has any pages.
 
@@ -59,7 +59,7 @@ After decoding using the 14th shift, you'll have your answer!
 Caesar Cipher Decoder: https://cryptii.com/pipes/caesar-cipher
 
 
-# Question 3
+## Question 3
 
 After locating the first two Pokemon, you'll move over to the '/etc/' directory, and there will be a weird directory located there title 'Why_am_i_here?'.
 
@@ -70,7 +70,7 @@ This one needs to be decoded using base64.
 Base64: https://www.base64decode.org/
 
 
-# Question 4 - LAST ONE!
+## Question 4 - LAST ONE!
 
 Let's see if we can find any login credentials for a root user to gain access to our last root flag!
 
