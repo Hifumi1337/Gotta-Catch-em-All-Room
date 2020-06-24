@@ -1,6 +1,6 @@
 # Title: Gotta Catch'Em All!
 
-# GhostlyPy | Author
+## GhostlyPy | Author
 
 GhostlyPy is a Web Developer and Cybersecurity Enthusiast who enjoys coding with some of his favorite languages, including HTML, CSS, Python, JavaScript, C++, and many more over the years. His preferred distribution version of Linux is Ubuntu and Kali. This is the first room GhostlyPy has ever done!
 
@@ -8,7 +8,7 @@ YouTube: https://www.youtube.com/channel/UCnMcOdlU57Bsa5-rbyY7Neg (Videos have b
 Twitter: https://twitter.com/GhostlyPy
 
 
-# Description
+## Description
 
 This room is based on the original Pokemon series. Can you obtain all the Pokemon in this room?
 
@@ -25,49 +25,45 @@ After running a Nmap scan, we'll see that there is an ssh & HTTP port open. We w
 
 Open the IP in your browser of choice, click 'open page source' or the equivalent in your browser.
 
-Scrolling to the bottom shows a weird combination of username and password. Could this be a user?
+Scrolling to the bottom shows a weird combination of username and password.
 
-After logging into the ssh with the provided credentials, change the directory to /home/
+Using **ssh username@{Machine-IP}** you'l be able to log into as a user.
 
-Why is there a zip file here? Let's unzip it! (Sometimes the file is already unzipped, if so, it should still work.)
+After logging into ssh with the provided credentials, traverse to the home directory.
 
-**unzip <file_name.zip>**
+You should see a compressed folder that needs to be unzipped? Let's unzip it!
+
+Command: **unzip <file_name.zip>**
 
 This will have our first pokemon's text file!
 
-Wait.
-
-It still requires a hexadecimal decoder to find the answer. After doing so, you'll have your pokemon!
+Wait, it still requires a hexadecimal decoder to find the answer. After doing so, you'll have your first answer!
 
 Hexadecimal Decoder: https://cryptii.com/pipes/hex-decoder
 
 
 # Question 2
 
-Easy.
+First things first, let's see if our webpage from earlier has any pages.
 
 Run the following command:
 
 **gobuster dir -u {Machine-IP} -w /Location of preferred Wordlist/**
 
-You'll find there's a webpage on the server called http://{Machine-IP}/Text-File-Name
-
-Wanna find it easier? Maybe the file name is similar to the question, like the first task seemed to be.
+You'll find there's only one webpage on the server that we can visit.
 
 This one is encoded too, but looks a lot weirder. That's because it's a Caesar Cipher!
 
-After decoding using the 14th shift, you'll have your pokemon!
+After decoding using the 14th shift, you'll have your answer!
 
 Caesar Cipher Decoder: https://cryptii.com/pipes/caesar-cipher
 
 
 # Question 3
 
-Still logged into the same user:
+After locating the first two Pokemon, you'll move over to the '/etc/' directory, and there will be a weird directory located there title 'Why_am_i_here?'.
 
-Move over to the '/' directory, and there will be a weird directory located there.
-
-After changing into the weird directory, you'll see the file! (You'll know the weird directory, trust me).
+After changing into the correct directory, you'll see the file we need for our third question!
 
 This one needs to be decoded using base64.
 
@@ -76,21 +72,23 @@ Base64: https://www.base64decode.org/
 
 # Question 4 - LAST ONE!
 
-Let's go back to that home directory and see if we can find any login credentials for a second root user.
+Let's see if we can find any login credentials for a root user to gain access to our last root flag!
 
-Definitely a weird directory in '/Videos/'.
+Definitely a weird directory in '/Videos/' on the Pokemon user's system.
 
 **Absolute path: 'Gotta/Catch/Them/ALL!'**
 
-Hmm, this looks like a fake C++ file, maybe it has something in it!
+Hmm, this looks like a fake C++ file, maybe it has something in it?
 
-**cat Could_this_be_what_Im_looking_for?.cplusplus**
+Command: **cat Could_this_be_what_Im_looking_for?.cplusplus**
 
-There are the login credentials!
+There are the login credentials for a user. But does it give root access?
 
-Time to become Ash Ketchum and gain root access (again) and the final flag.
+It does!
 
-Now we need to change the directory to 'home' (Can't use ~).
+Time to become **Ash Ketchum** and gain root access and the final flag.
+
+After changing into the home directory of the root user, we'll see a file title **roots-pokemon.txt**.
 
 There it is! The final flag!
 
@@ -99,16 +97,16 @@ The best thing about this flag? No cipher or coded message!
 # Congratulations!
 
 
-# Thank You So Much For Playing My First Room!
+## Thank You So Much For Playing My First Room!
 
 
-# Questions or Issues
+## Questions or Issues
 ```
 Please let me know if any bugs or problems occur during your CTF.
 You can message me on the TryHackMe website or use the issues section located in the Options tab.
 Thank you.
 ```
 
-# Links
+## Links
 
 Thank you [TryHackMe](https://tryhackme.com) for allowing me to complete this room!
