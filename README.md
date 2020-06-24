@@ -14,10 +14,8 @@ This room is based on the original Pokemon series. Can you obtain all the Pokemo
 
 If you came across this from somewhere other then TryHackme, view my room here: https://tryhackme.com/room/pokemon
 
-# WriteUp
 
-
-# Task 1
+# Question 1
 
 Run Nmap to search open ports
 
@@ -44,7 +42,7 @@ It still requires a hexadecimal decoder to find the answer. After doing so, you'
 Hexadecimal Decoder: https://cryptii.com/pipes/hex-decoder
 
 
-# Task 2
+# Question 2
 
 Easy.
 
@@ -63,7 +61,7 @@ After decoding using the 14th shift, you'll have your pokemon!
 Caesar Cipher Decoder: https://cryptii.com/pipes/caesar-cipher
 
 
-# Task 3
+# Question 3
 
 Still logged into the same user:
 
@@ -76,7 +74,7 @@ This one needs to be decoded using base64.
 Base64: https://www.base64decode.org/
 
 
-# Task 4 - LAST ONE!
+# Question 4 - LAST ONE!
 
 Let's go back to that home directory and see if we can find any login credentials for a second root user.
 
