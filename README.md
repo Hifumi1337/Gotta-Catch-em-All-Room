@@ -4,7 +4,8 @@
 
 GhostlyPy is a Web Developer and Cybersecurity Enthusiast who enjoys coding with some of his favorite languages, including HTML, CSS, Python, JavaScript, C++, and many more over the years. His preferred distribution version of Linux is Ubuntu and Kali. This is the first room GhostlyPy has ever done!
 
-YouTube: https://www.youtube.com/channel/UCnMcOdlU57Bsa5-rbyY7Neg (Videos have been recorded, will be up very soon!)
+YouTube: https://www.youtube.com/channel/UCnMcOdlU57Bsa5-rbyY7Neg
+
 Twitter: https://twitter.com/GhostlyPy
 
 
