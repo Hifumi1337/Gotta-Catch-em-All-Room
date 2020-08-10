@@ -1,14 +1,5 @@
 # Title: Gotta Catch'Em All!
 
-## GhostlyPy | Author
-
-GhostlyPy is a Web Developer and Cybersecurity Enthusiast who enjoys coding with some of his favorite languages, including HTML, CSS, Python, JavaScript, C++, and many more over the years. His preferred distribution version of Linux is Ubuntu and Kali. This is the first room GhostlyPy has ever done!
-
-YouTube: https://www.youtube.com/channel/UCnMcOdlU57Bsa5-rbyY7Neg
-
-Twitter: https://twitter.com/GhostlyPy
-
-
 ## Description
 
 This room is based on the original Pokemon series. Can you obtain all the Pokemon in this room?
@@ -111,3 +102,11 @@ Thank you.
 ## Links
 
 Thank you [TryHackMe](https://tryhackme.com) for allowing me to complete this room!
+
+## GhostlyPy | Author
+
+GhostlyPy is a Web Developer and Cybersecurity Enthusiast who enjoys coding with some of his favorite languages, including HTML, CSS, Python, JavaScript, C++, and many more over the years. His preferred distribution version of Linux is Ubuntu and Kali. This is the first room GhostlyPy has ever done!
+
+YouTube: https://www.youtube.com/channel/UCnMcOdlU57Bsa5-rbyY7Neg
+
+Twitter: https://twitter.com/GhostlyPy
