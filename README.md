@@ -1,6 +1,6 @@
 # Title: Gotta Catch'Em All!
 
-## Video Version: Coming Soon!
+### Video Version: Coming Soon!
 
 ## Description
 
