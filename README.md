@@ -58,7 +58,7 @@ You'll find there's only one webpage on the server that we can visit.
 
 This one is encoded too, but looks a lot weirder. That's because it's a Caesar Cipher!
 
-After decoding using the 12th shift, you'll have your answer!
+After decoding, you'll have your answer!
 
 Caesar Cipher Decoder: https://cryptii.com/pipes/caesar-cipher
 
