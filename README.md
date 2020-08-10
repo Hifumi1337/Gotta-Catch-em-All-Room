@@ -1,5 +1,7 @@
 # Title: Gotta Catch'Em All!
 
+## Video Version: Coming Soon!
+
 ## Description
 
 This room is based on the original Pokemon series. Can you obtain all the Pokemon in this room?
@@ -11,7 +13,11 @@ If you came across this from somewhere other then TryHackme, view my room here: 
 
 Run Nmap to search open ports
 
-**nmap -sC -sV -Pn {Machine-IP}** (The server DOES ping, I just prefer -Pn for silence)
+```
+nmap -sC -sV -Pn {Machine-IP}
+```
+(The server DOES ping, I just prefer -Pn for silence)
+
 
 After running a Nmap scan, we'll see that there is an ssh & HTTP port open. We will utilize both of these ports for this room.
 
@@ -19,13 +25,17 @@ Open the IP in your browser of choice, click 'open page source' or the equivalen
 
 Scrolling to the bottom shows a weird combination of username and password.
 
-Using **ssh username@{Machine-IP}** you'll be able to log in as a user.
+```
+ssh username@{Machine-IP}
+```
 
 After logging into ssh with the provided credentials, traverse to the user's directory.
 
 You should see a compressed folder that needs to be unzipped? Let's unzip it!
 
-Command: **unzip <file_name.zip>**
+```
+unzip <file_name.zip>
+```
 
 This will have our first pokemon's text file!
 
@@ -40,7 +50,9 @@ First things first, let's see if our webpage from earlier has any pages.
 
 Run the following command:
 
-**find / -name water-type.txt 2> /dev/null**
+```
+find / -name water-type.txt 2> /dev/null
+```
 
 You'll find there's only one webpage on the server that we can visit.
 
@@ -53,7 +65,7 @@ Caesar Cipher Decoder: https://cryptii.com/pipes/caesar-cipher
 
 ## Question 3
 
-After locating the first two Pokemon, you'll move over to the '/etc/' directory, and there will be a weird directory located there titled 'Why_am_i_here?'.
+After locating the first two Pokemon, you'll move over to the '/etc/' directory, and there will be a weird directory located there titled 'Why_am_i_here?'
 
 After changing into the correct directory, you'll see the file we need for our third question!
 
@@ -72,7 +84,9 @@ Definitely a weird directory in '/Videos/' on the Pokemon user's system.
 
 Hmm, this looks like a fake C++ file, maybe it has something in it?
 
-Command: **cat Could_this_be_what_Im_looking_for?.cplusplus**
+```
+cat Could_this_be_what_Im_looking_for?.cplusplus
+```
 
 There are the login credentials for a user. But does it give root access?
 
