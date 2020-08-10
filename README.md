@@ -28,7 +28,7 @@ Open the IP in your browser of choice, click 'open page source' or the equivalen
 
 Scrolling to the bottom shows a weird combination of username and password.
 
-Using **ssh username@{Machine-IP}** you'l be able to log into as a user.
+Using **ssh username@{Machine-IP}** you'll be able to log in as a user.
 
 After logging into ssh with the provided credentials, traverse to the user's directory.
 
