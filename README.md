@@ -4,9 +4,7 @@
 
 I now have a blog where I post all of my write-ups, updates, and interesting topics.
 
-You can find the URL for this writeup here: https://hifumi1337.github.io/gotta-catchem-all-writeup/
-
-### Video Version: https://www.youtube.com/watch?v=h43nehkKT6s
+You can find the URL for this writeup here: https://blog.hifumi1337.io/gotta-catchem-all-writeup/
 
 ## Description
 
