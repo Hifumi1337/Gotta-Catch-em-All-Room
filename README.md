@@ -4,18 +4,18 @@
 
 I now have a blog where I post all of my write-ups, updates, and interesting topics.
 
-You can find the URL for this writeup here: https://blog.hifumi1337.io/gotta-catchem-all-writeup/
+You can find the URL for this writeup here: https://blog.azazelm3dj3d.com/gotta-catchem-all-writeup/
 
 ## Description
 
 This room is based on the original Pokemon series. Can you obtain all the Pokemon in this room?
 
-If you came across this from somewhere other then TryHackme, view my room here: https://tryhackme.com/room/pokemon
+If you came across this from somewhere other than TryHackme, view my room here: https://tryhackme.com/room/pokemon
 
 
 ## Question 1
 
-Run Nmap to search open ports
+Run Nmap to search for open ports
 
 ```
 nmap -sC -sV -Pn {Machine-IP}
@@ -71,7 +71,7 @@ Caesar Cipher Decoder: https://cryptii.com/pipes/caesar-cipher
 
 After locating the first two Pokemon, you'll move over to the '/etc/' directory, and there will be a weird directory located there titled 'Why_am_i_here?'
 
-After changing into the correct directory, you'll see the file we need for our third question!
+After changing to the correct directory, you'll see the file we need for our third question!
 
 This one needs to be decoded using base64.
 
@@ -82,7 +82,7 @@ Base64: https://www.base64decode.org/
 
 Let's see if we can find any login credentials for a root user to gain access to our last root flag!
 
-Definitely a weird directory in '/Videos/' on the Pokemon user's system.
+A weird directory in '/Videos/' on the Pokemon user's system.
 
 **Absolute path: 'Gotta/Catch/Them/ALL!'**
 
