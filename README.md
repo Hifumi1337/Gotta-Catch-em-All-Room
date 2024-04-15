@@ -1,11 +1,5 @@
 # Title: Gotta Catch'Em All!
 
-# NOTE
-
-I now have a blog where I post all of my write-ups, updates, and interesting topics.
-
-You can find the URL for this writeup here: https://blog.azazelm3dj3d.com/gotta-catchem-all-writeup/
-
 ## Description
 
 This room is based on the original Pokemon series. Can you obtain all the Pokemon in this room?
